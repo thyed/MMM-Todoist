@@ -24,15 +24,20 @@
 }
 
 .overdue {
-    text-decoration: underline #ac0000;
+    /* text-decoration: underline #ac0000; */
+    color: red;
+    font-weight: bold;
 }
 
 .today {
-    text-decoration: underline #03a05c;
+    /* text-decoration: underline #03a05c; */
+    color: #eb8909;
+    font-weight: bold;
 }
 
 .tomorrow {
-    text-decoration: underline #166cec;
+    /* text-decoration: underline #166cec; */
+    color: #03a05c;
 }
 
 .projectcolor {
@@ -54,9 +59,11 @@
 .todoAvatarImg {
     border-radius: 50%;
     /* filter: grayscale(100%); */
-    height: 27px;
+    height: 30px;
     display: block;
-    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -74,6 +81,7 @@
 .divTableCell, .divTableHead {
 	/* border: 1px solid #999999; */
 	display: table-cell;
+  vertical-align: middle;
 	/* padding: 3px 10px; */
 }
 .divTableHeading {
